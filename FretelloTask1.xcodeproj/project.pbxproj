@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C29326D25CA9852008DE539 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C29326C25CA9852008DE539 /* ExerciseTableViewCell.swift */; };
+		2C7ED90325C33E7200DCBD8C /* SessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7ED90225C33E7200DCBD8C /* SessionsTableViewController.swift */; };
+		2C835BBB25C5401200D3F9A7 /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C835BBA25C5401200D3F9A7 /* SessionTableViewCell.swift */; };
 		2CC9BCF325C1E0FE0033134C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9BCF225C1E0FE0033134C /* AppDelegate.swift */; };
 		2CC9BCF525C1E0FE0033134C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9BCF425C1E0FE0033134C /* SceneDelegate.swift */; };
-		2CC9BCF725C1E0FE0033134C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9BCF625C1E0FE0033134C /* ViewController.swift */; };
-		2CC9BCFA25C1E0FE0033134C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9BCF825C1E0FE0033134C /* Main.storyboard */; };
 		2CC9BCFD25C1E0FE0033134C /* FretelloTask1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9BCFB25C1E0FE0033134C /* FretelloTask1.xcdatamodeld */; };
 		2CC9BCFF25C1E1000033134C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9BCFE25C1E1000033134C /* Assets.xcassets */; };
 		2CC9BD0225C1E1000033134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9BD0025C1E1000033134C /* LaunchScreen.storyboard */; };
+		2CC9BD0B25C1E1390033134C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9BD0A25C1E1390033134C /* NetworkManager.swift */; };
+		2CCE720B25C48D9E0075805F /* InfoSessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE720A25C48D9E0075805F /* InfoSessionsTableViewController.swift */; };
+		2CF29B6F25C27DD700C41298 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF29B6E25C27DD700C41298 /* Session.swift */; };
+		2CF29B7425C2A42600C41298 /* SessionsCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF29B7325C2A42600C41298 /* SessionsCountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C29326C25CA9852008DE539 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		2C7ED90225C33E7200DCBD8C /* SessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsTableViewController.swift; sourceTree = "<group>"; };
+		2C835BBA25C5401200D3F9A7 /* SessionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
 		2CC9BCEF25C1E0FE0033134C /* FretelloTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretelloTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC9BCF225C1E0FE0033134C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC9BCF425C1E0FE0033134C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CC9BCF625C1E0FE0033134C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CC9BCF925C1E0FE0033134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CC9BCFC25C1E0FE0033134C /* FretelloTask1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FretelloTask1.xcdatamodel; sourceTree = "<group>"; };
 		2CC9BCFE25C1E1000033134C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC9BD0125C1E1000033134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC9BD0325C1E1000033134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC9BD0A25C1E1390033134C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2CCE720A25C48D9E0075805F /* InfoSessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSessionsTableViewController.swift; sourceTree = "<group>"; };
+		2CF29B6E25C27DD700C41298 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2CF29B7325C2A42600C41298 /* SessionsCountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsCountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,53 @@
 		2CC9BCF125C1E0FE0033134C /* FretelloTask1 */ = {
 			isa = PBXGroup;
 			children = (
-				2CC9BCF225C1E0FE0033134C /* AppDelegate.swift */,
-				2CC9BCF425C1E0FE0033134C /* SceneDelegate.swift */,
-				2CC9BCF625C1E0FE0033134C /* ViewController.swift */,
-				2CC9BCF825C1E0FE0033134C /* Main.storyboard */,
-				2CC9BCFE25C1E1000033134C /* Assets.xcassets */,
-				2CC9BD0025C1E1000033134C /* LaunchScreen.storyboard */,
-				2CC9BD0325C1E1000033134C /* Info.plist */,
 				2CC9BCFB25C1E0FE0033134C /* FretelloTask1.xcdatamodeld */,
+				2CC9BCFE25C1E1000033134C /* Assets.xcassets */,
+				2CC9BD0325C1E1000033134C /* Info.plist */,
+				2CF29B7825C2ACF500C41298 /* Model */,
+				2CF29B7A25C2ACFB00C41298 /* Networking */,
+				2CF29B7D25C2AD3300C41298 /* View */,
+				2CF29B7625C2ACE700C41298 /* Controller */,
 			);
 			path = FretelloTask1;
+			sourceTree = "<group>";
+		};
+		2CF29B7625C2ACE700C41298 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CC9BCF225C1E0FE0033134C /* AppDelegate.swift */,
+				2CC9BCF425C1E0FE0033134C /* SceneDelegate.swift */,
+				2C7ED90225C33E7200DCBD8C /* SessionsTableViewController.swift */,
+				2CCE720A25C48D9E0075805F /* InfoSessionsTableViewController.swift */,
+				2CF29B7325C2A42600C41298 /* SessionsCountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CF29B7825C2ACF500C41298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CF29B6E25C27DD700C41298 /* Session.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CF29B7A25C2ACFB00C41298 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CC9BD0A25C1E1390033134C /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CF29B7D25C2AD3300C41298 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CC9BD0025C1E1000033134C /* LaunchScreen.storyboard */,
+				2C835BBA25C5401200D3F9A7 /* SessionTableViewCell.swift */,
+				2C29326C25CA9852008DE539 /* ExerciseTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +176,6 @@
 			files = (
 				2CC9BD0225C1E1000033134C /* LaunchScreen.storyboard in Resources */,
 				2CC9BCFF25C1E1000033134C /* Assets.xcassets in Resources */,
-				2CC9BCFA25C1E0FE0033134C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +186,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC9BCF725C1E0FE0033134C /* ViewController.swift in Sources */,
+				2C835BBB25C5401200D3F9A7 /* SessionTableViewCell.swift in Sources */,
+				2C29326D25CA9852008DE539 /* ExerciseTableViewCell.swift in Sources */,
 				2CC9BCF325C1E0FE0033134C /* AppDelegate.swift in Sources */,
+				2CF29B6F25C27DD700C41298 /* Session.swift in Sources */,
+				2CCE720B25C48D9E0075805F /* InfoSessionsTableViewController.swift in Sources */,
+				2CC9BD0B25C1E1390033134C /* NetworkManager.swift in Sources */,
 				2CC9BCF525C1E0FE0033134C /* SceneDelegate.swift in Sources */,
 				2CC9BCFD25C1E0FE0033134C /* FretelloTask1.xcdatamodeld in Sources */,
+				2C7ED90325C33E7200DCBD8C /* SessionsTableViewController.swift in Sources */,
+				2CF29B7425C2A42600C41298 /* SessionsCountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CC9BCF825C1E0FE0033134C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CC9BCF925C1E0FE0033134C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CC9BD0025C1E1000033134C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,6 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Kazantsev.FretelloTask1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -316,6 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Kazantsev.FretelloTask1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
